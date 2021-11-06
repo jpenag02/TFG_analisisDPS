@@ -1,0 +1,230 @@
+{
+  "game": [
+    {
+        "id": 1,
+        "question": " ¿El triple de 8 es 24?",
+        "yes": {
+            "aciertos":1,
+            "fallos": 0,
+            "numpreguntas": 1,
+            "answer": "Efectivamente. 3 por 8 es 24. ",
+            "warning": "Recuerda que si cometes 3 fallos, quedas eliminado. ",
+            "targets": [3, 4, 5, 6, 7, 8, 9]
+        },
+        "no": {
+            "aciertos":0,
+            "fallos": 1,
+            "numpreguntas": 1,
+            "answer": "Oh! Respuesta incorrecta. El triple de 8 es 24. ",
+            "warning": "Cuidado, si cometes 3 fallos quedas eliminado. ",
+            "targets": [3, 4, 5, 6, 7, 8, 9]
+        }
+       
+    },
+    
+    {
+        "id": 2,
+        "question": "¿Este sonido corresponde a una oveja? ",
+        "yes": {
+            "aciertos":0,
+            "fallos": 1,
+            "numpreguntas": 1,
+            "answer": "¡Vaya, has fallado!. El sonido es el de un caballo. ",
+            "warning":"",
+            "targets": [3, 5, 6, 7, 8, 9]
+
+        },
+        "no": {
+            "aciertos":1,
+            "fallos": 0,
+            "numpreguntas": 1,
+            "answer": "Respuesta correcta. No es una oveja, es un caballo. ",
+            "warning":"",
+            "targets": [3, 5, 6, 7, 8, 9]
+        }
+    },
+    
+    {
+        "id": 3,
+        "question": "¿Es mayor el 56 que el 72? ",
+        "yes": {
+            "aciertos":0,
+            "fallos": 1,
+            "numpreguntas": 1,
+            "answer": "¡Lástima, has fallado! El 56 es menor que el 72. ",
+            "warning":"",
+            "targets": [4, 5, 6, 7, 8, 9]
+        },
+        "no": {
+            "aciertos":1,
+            "fallos": 0,
+            "numpreguntas": 1,
+            "answer": "Correcto! El 56 es menor que el 72. ",
+            "warning":"",
+            "targets": [4, 5, 6, 7, 8, 9]
+        }
+    },
+    
+    {
+        "id": 4,
+        "audio":"<audio src=\"soundbank://soundlibrary/animals/amzn_sfx_horse_whinny_03\"/>",
+        "question": "¿Tiene un día veinticuatro horas? ",
+        "yes": {
+            "aciertos":1,
+            "fallos": 0,
+            "numpreguntas": 1,
+            "answer": "Correcto! ",
+            "warning":"",
+            "targets": [2]
+
+        },
+        "no": {
+            "aciertos":0,
+            "fallos": 1,
+            "numpreguntas": 1,
+            "answer": "Incorrecto! Los días tienen veinticuatro horas. ",
+            "warning":"",
+            "targets": [2]
+
+        }
+    },
+    
+    {
+        "id": 5,
+        "question": "¿Un euro son cien céntimos? ",
+        "yes": {
+            "aciertos":1,
+            "fallos": 0,
+            "numpreguntas": 1,
+            "answer": "Correcto! ",
+            "warning":"",
+            "targets": [3, 4, 6, 7, 8, 9]
+
+        },
+        "no": {
+            "aciertos":0,
+            "fallos": 1,
+            "numpreguntas": 1,
+            "answer": "Error! Un euro son cien céntimos. ",
+            "warning":"",
+            "targets": [3, 4, 6, 7, 8, 9]
+
+        }
+    },
+    
+    {
+        "id": 6,
+        "question": "¿El mes de octubre pertenece al otoño? ",
+        "yes": {
+            "aciertos":1,
+            "fallos": 0,
+            "numpreguntas": 1,
+            "answer": "Correcto! El otoño comienza el 21 de septiembre y acaba el 20 de diciembre. ",
+            "warning":"",
+            "targets": [3, 4, 5, 7, 8, 9]
+
+        },
+        "no": {
+            "aciertos":0,
+            "fallos": 1,
+            "numpreguntas": 1,
+            "answer": "Incorrecto! Octubre pertenece al otoño, porque el otoño comienza el 21 de septiembre y acaba el 20 de diciembre. ",
+            "warning":"",
+            "targets": [3, 4, 5, 7, 8, 9]
+
+        }
+    },
+    
+    {
+        "id": 7,
+        "question": "¿Plátano y manzana pertenecen al mismo campo semántico?",
+        "yes": {
+            "aciertos":1,
+            "fallos": 0,
+            "numpreguntas": 1,
+            "answer": "Correcto! Ambas palabras pertenecen al campo semántico de las frutas. ",
+            "warning":"",
+            "targets": [3, 4, 5, 6, 8, 9]
+
+        },
+        "no": {
+            "aciertos":0,
+            "fallos": 1,
+            "numpreguntas": 1,
+            "answer": "Respuesta incorrecta! Ambas palabras pertenecen al campo semántico de las frutas. ",
+            "warning":"",
+            "targets": [3, 4, 5, 6, 8, 9]
+
+        }
+    },
+    
+    {
+        "id": 8,
+        "question": "¿Una semana tiene 7 días? ",
+        "yes": {
+            "aciertos":1,
+            "fallos": 0,
+            "numpreguntas": 1,
+            "answer": "Correcto! Lunes, Martes, Miércoles, Jueves, Viernes, Sábado y Domingo. ",
+            "warning":"",
+            "targets": [3, 4, 5, 6, 7, 9]
+
+        },
+        "no": {
+            "aciertos":0,
+            "fallos": 1,
+            "numpreguntas": 1,
+            "answer": "Incorrecto! La semana tiene 7 días. Lunes, Martes, Miércoles, Jueves, Viernes, Sábado y Domingo. ",
+            "warning":"",
+            "targets": [3, 4, 5, 6, 7, 9]
+
+        }
+    },
+    
+    {
+        "id": 9,
+        "question": "¿Da el mismo resultado multiplicar 5 por 4 que 4 por 5? ",
+        "yes": {
+            "aciertos":1,
+            "fallos": 0,
+            "numpreguntas": 1,
+            "answer": "Bien! Las dos operaciones dan 20 debido a la propiedad conmutativa de la multiplicación. ",
+            "warning":"",
+            "targets": [3, 4, 5, 6, 7, 8]
+
+        },
+        "no": {
+            "aciertos":0,
+            "fallos": 1,
+            "numpreguntas": 1,
+            "answer": "Mal! Las dos operaciones dan 20 debido a la propiedad conmutativa de la multiplicación.",
+            "warning":"",
+            "targets": [3, 4, 5, 6, 7, 8]
+
+        }
+    },
+    
+    {
+        "id": 10,
+        "question": "Última pregunta. ¿Los leones son mamíferos?",
+        "yes": {
+            "aciertos":1,
+            "fallos": 0,
+            "numpreguntas": 1,
+            "answer": "Efectivamente! Los leones son mamíferos. ",
+            "warning":"",
+            "targets": []
+
+        },
+        "no": {
+            "aciertos":0,
+            "fallos": 1,
+            "numpreguntas": 1,
+            "answer": "Lástima, has fallado! Los leones son mamíferos. ",            
+            "warning":"",
+            "targets": []
+
+        }
+    }
+  ]
+}

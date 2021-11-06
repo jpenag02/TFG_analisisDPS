@@ -1,0 +1,65 @@
+[
+    {
+        "¿Si en un reloj la aguja pequeña marca el 8 y la aguja grande marca el 12, qué hora es?": [
+            "Ocho en punto",
+            "Ocho y media",
+            "Doce en punto"
+        ]
+    },
+    {
+        "¿Cuál de estos 3 números es mayor?": [
+            "10",
+            "9",
+            "8"
+        ]
+    },
+    {
+        "¿Cuál es el mejor mes para ir a la playa?": [
+            "Julio",
+            "Diciembre",
+            "Febrero"
+        ]
+    },
+    {
+        "¿Qué se utiliza para medir la temperatura del cuerpo?": [
+            "Termómetro",
+            "Jeringuilla",
+            "Pinza"
+        ]
+    },
+    {
+        "El alcalde trabaja en...": [
+            "El Ayuntamiento",
+            "Su Casa",
+            "El bar"
+        ]
+    },
+    {
+        "¿Cuál de las siguientes letras se escribe con b?": [
+            "Burro",
+            "Vaso",
+            "Vida"
+            ]
+    },
+    {
+        "¿Qué alimento es más sano?": [
+            "Las verduras",
+            "El chocolate",
+            "Las chucherías"
+            ]
+    },
+    {
+        "Cuando una persona sonríe es porque está...": [
+            "Alegre",
+            "Triste",
+            "Enfadado"
+        ]
+    },
+    {
+        "Si tenemos 10 caramelos y nos quitan 4, ¿cuántos nos quedan?": [
+            "6",
+            "5",
+            "7"
+        ]
+    }
+]

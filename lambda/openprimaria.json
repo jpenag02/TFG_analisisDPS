@@ -1,0 +1,72 @@
+[
+    {
+        "Cuánto es 7 por 5?": [
+            "35",
+            "30",
+            "45"
+        ]
+    },
+    {
+        "¿Cuál de estos meses tiene 30 días?": [
+            "Septiembre",
+            "Febrero",
+            "Mayo"
+        ]
+    },
+    {
+        "La persona que cuida a los animales domésticos se llama...": [
+            "Ganadero",
+            "Cazador",
+            "Pescador"
+        ]
+    },
+    {
+        "Si en una carrera has quedado en el puesto número 3, se dice que has quedado...": [
+            "Tercero",
+            "Trigésimo",
+            "Tercio"
+        ]
+    },
+    {
+        "Si dos palabras significan lo mismo, se dice que son...": [
+            "Sinónimos",
+            "Antónimos",
+            "Homónimos"
+        ]
+    },
+    {
+        "¿Cuál es el órgano principal del aparato circulatorio?": [
+            "Corazón",
+            "Pulmones",
+            "Estómago"
+            ]
+    },
+    {
+        "El diminutivo de árbol es...": [
+            "Arbolito",
+            "Arbolazo",
+            "Arbolino"
+            ]
+    },
+    {
+        "Escoge la unidad correcta. Entre Sevilla y Badajoz hay 210...": [
+            "Kilómetros",
+            "Centímetros",
+            "Metros"
+        ]
+    },
+    {
+        "¿Cuál de estas es una fuente de energía no renovable?": [
+            "Gas",
+            "Sol",
+            "Agua"
+        ]
+    },
+    {
+        "Si tenemos 4 decenas y 2 unidades, ¿qué número tenemos?": [
+            "42",
+            "40",
+            "24"
+        ]
+    }
+]

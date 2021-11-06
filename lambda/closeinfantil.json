@@ -1,0 +1,229 @@
+{
+  "game2": [
+    {
+        "id": 1,
+        "question": " Si sumamos 4 más 3, ¿el resultado es 7?",
+        "yes": {
+            "aciertos":1,
+            "fallos": 0,
+            "numpreguntas": 1,
+            "answer": "Efectivamente. 4 más 3 es 7. ",
+            "warning": "Recuerda que si cometes 3 fallos, quedas eliminado. ",
+            "targets": [2, 3, 4, 5, 6, 7, 8, 9]
+        },
+        "no": {
+            "aciertos":0,
+            "fallos": 1,
+            "numpreguntas": 1,
+            "answer": "Oh! Respuesta incorrecta. 4 más 3 es 7. ",
+            "warning": "Cuidado, si cometes 3 fallos quedas eliminado. ",
+            "targets": [2, 3, 4, 5, 6, 7, 8, 9]
+        }
+       
+    },
+    
+    {
+        "id": 2,
+        "question": "¿Las cinco vocales que existen son a, e, i, o, u? ",
+        "yes": {
+            "aciertos":1,
+            "fallos": 0,
+            "numpreguntas": 1,
+            "answer": "Respuesta correcta. ",
+            "warning":"",
+            "targets": [3, 4, 5, 6, 7, 8, 9]
+
+        },
+        "no": {
+            "aciertos":0,
+            "fallos": 1,
+            "numpreguntas": 1,
+            "answer": "¡Vaya, has fallado!. Las cinco vocales son a, e, i, o, u. ",
+            "warning":"",
+            "targets": [3, 4, 5, 6, 7, 8, 9]
+        }
+    },
+    
+    {
+        "id": 3,
+        "question": "¿Vaso se escribe con b? ",
+        "yes": {
+            "aciertos":0,
+            "fallos": 1,
+            "numpreguntas": 1,
+            "answer": "¡Lástima, has fallado! Vaso se escribe con v. ",
+            "warning":"",
+            "targets": [2, 4, 5, 6, 7, 8, 9]
+        },
+        "no": {
+            "aciertos":1,
+            "fallos": 0,
+            "numpreguntas": 1,
+            "answer": "Correcto! Vaso se escribe con v. ",
+            "warning":"",
+            "targets": [2, 4, 5, 6, 7, 8, 9]
+        }
+    },
+    
+    {
+        "id": 4,
+        "question": "Si llegamos a un semáforo donde el muñeco está en rojo y queremos cruzar por el paso de peatones. ¿Debemos cruzar? ",
+        "yes": {
+            "aciertos":0,
+            "fallos": 1,
+            "numpreguntas": 1,
+            "answer": "Incorrecto! Siempre hay que cruzar cuando el muñeco esté en verde y de la mano de un adulto. ",
+            "warning":"",
+            "targets": [2, 3, 5, 6, 7, 8, 9]
+
+        },
+        "no": {
+            "aciertos":1,
+            "fallos": 0,
+            "numpreguntas": 1,
+            "answer": "Correcto! Siempre hay que cruzar cuando el muñeco esté en verde y de la mano de un adulto. ",
+            "warning":"",
+            "targets": [2, 3, 5, 6, 7, 8, 9]
+
+        }
+    },
+    
+    {
+        "id": 5,
+        "question": "En un vaso lleno, ¿se puede echar más agua? ",
+        "yes": {
+            "aciertos":0,
+            "fallos": 1,
+            "numpreguntas": 1,
+            "answer": "Error! Solo se puede echar agua si el vaso está vacío. ",
+            "warning":"",
+            "targets": [2, 3, 4, 6, 7, 8, 9]
+
+        },
+        "no": {
+            "aciertos":1,
+            "fallos": 0,
+            "numpreguntas": 1,
+            "answer": "Correcto! Solo se puede echar agua si el vaso está vacío. ",
+            "warning":"",
+            "targets": [2, 3, 4, 6, 7, 8, 9]
+
+        }
+    },
+    
+    {
+        "id": 6,
+        "question": "¿Un castillo es más grande que una casa? ",
+        "yes": {
+            "aciertos":1,
+            "fallos": 0,
+            "numpreguntas": 1,
+            "answer": "Correcto! ",
+            "warning":"",
+            "targets": [2, 3, 4, 5, 7, 8, 9]
+
+        },
+        "no": {
+            "aciertos":0,
+            "fallos": 1,
+            "numpreguntas": 1,
+            "answer": "Incorrecto! Una casa es más pequeña que un castillo. ",
+            "warning":"",
+            "targets": [2, 3, 4, 5, 7, 8, 9]
+
+        }
+    },
+    
+    {
+        "id": 7,
+        "question": "¿Si una persona es alérgica a los cereales, puede comer pan?",
+        "yes": {
+            "aciertos":0,
+            "fallos": 1,
+            "numpreguntas": 1,
+            "answer": "Respuesta incorrecta! El pan es un cereal y no lo puede comer porque se pondría enferma ",
+            "warning":"",
+            "targets": [2, 3, 4, 5, 6, 8, 9]
+
+        },
+        "no": {
+            "aciertos":1,
+            "fallos": 0,
+            "numpreguntas": 1,
+            "answer": "Bien! El pan es un cereal y no lo podría comer porque se pondrían enfermas ",
+            "warning":"",
+            "targets": [2, 3, 4, 5, 6, 8, 9]
+
+        }
+    },
+    
+    {
+        "id": 8,
+        "question": "¿Navidad es el 25 de diciembre? ",
+        "yes": {
+            "aciertos":1,
+            "fallos": 0,
+            "numpreguntas": 1,
+            "answer": "Correcto! ",
+            "warning":"",
+            "targets": [2, 3, 4, 5, 6, 7, 9]
+
+        },
+        "no": {
+            "aciertos":0,
+            "fallos": 1,
+            "numpreguntas": 1,
+            "answer": "Incorrecto! Navidad es el 25 de diciembre ",
+            "warning":"",
+            "targets": [2, 3, 4, 5, 6, 7, 9]
+
+        }
+    },
+    
+    {
+        "id": 9,
+        "question": "¿Es cierto que gracias a los pulmones podemos respirar? ",
+        "yes": {
+            "aciertos":1,
+            "fallos": 0,
+            "numpreguntas": 1,
+            "answer": "Exacto! Los pulmones nos permiten realizar la respiración. ",
+            "warning":"",
+            "targets": [2, 3, 4, 5, 6, 7, 8]
+
+        },
+        "no": {
+            "aciertos":0,
+            "fallos": 1,
+            "numpreguntas": 1,
+            "answer": "Mal! Los pulmones nos permiten realizar la respiración. ",
+            "warning":"",
+            "targets": [2, 3, 4, 5, 6, 7, 8]
+
+        }
+    },
+    
+    {
+        "id": 10,
+        "question": "Última pregunta. ¿Las plantas son seres vivos? ",
+        "yes": {
+            "aciertos":1,
+            "fallos": 0,
+            "numpreguntas": 1,
+            "answer": "Efectivamente! Las plantas son seres vivos como los animales y los humanos. Hasta la próxima! ",
+            "warning":"",
+            "targets": []
+
+        },
+        "no": {
+            "aciertos":0,
+            "fallos": 1,
+            "numpreguntas": 1,
+            "answer": "Lástima, has fallado! Las plantas son seres vivos como los animales y los humanos. Hasta la próxima! ",            
+            "warning":"",
+            "targets": []
+
+        }
+    }
+  ]
+}
