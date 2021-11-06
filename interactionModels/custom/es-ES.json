@@ -1,0 +1,237 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "juega conmigo",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "RegisterAgeIntent",
+          "slots": [
+            {
+              "name": "age",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "cumplí {age} años",
+            "cumplí {age}",
+            "he cumplido {age} años",
+            "he cumplido {age}",
+            "tengo {age} años",
+            "{age} años",
+            "tengo {age}"
+          ]
+        },
+        {
+          "name": "OpenQuestionIntent",
+          "slots": [],
+          "samples": [
+            "a las preguntas abiertas",
+            "abiertas",
+            "preguntas abiertas"
+          ]
+        },
+        {
+          "name": "CloseQuestionIntent",
+          "slots": [],
+          "samples": [
+            "a las preguntas cerradas",
+            "cerradas",
+            "preguntas cerradas"
+          ]
+        },
+        {
+          "name": "AnswerIntent",
+          "slots": [
+            {
+              "name": "Answer",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "la opción {Answer}",
+            "la {Answer}",
+            "{Answer} es la respuesta",
+            "{Answer} es mi respuesta",
+            "mi respuesta es {Answer}",
+            "la respuesta es {Answer}",
+            "{Answer}"
+          ]
+        },
+        {
+          "name": "DontKnowIntent",
+          "slots": [],
+          "samples": [
+            "No sé esta pregunta",
+            "No la sé",
+            "Ni idea",
+            "No lo sé",
+            "siguiente pregunta",
+            "No sé",
+            "No tengo ni idea"
+          ]
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": [
+            "empieza",
+            "nuevo juego",
+            "empieza nuevo juego"
+          ]
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "RegisterNameIntent",
+          "slots": [
+            {
+              "name": "name",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "soy {name}",
+            "mi nombre es {name}",
+            "me llamo {name}"
+          ]
+        }
+      ],
+      "types": []
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "RegisterAgeIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "age",
+              "type": "AMAZON.NUMBER",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {},
+              "validations": [
+                {
+                  "type": "isLessThanOrEqualTo",
+                  "prompt": "Slot.Validation.117941563445.1489347053102.1558866954732",
+                  "value": "7"
+                },
+                {
+                  "type": "isGreaterThanOrEqualTo",
+                  "prompt": "Slot.Validation.117941563445.1489347053102.1485415394833",
+                  "value": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RegisterNameIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "name",
+              "type": "AMAZON.FirstName",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {}
+            }
+          ]
+        },
+        {
+          "name": "AnswerIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "Answer",
+              "type": "AMAZON.NUMBER",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {},
+              "validations": [
+                {
+                  "type": "isLessThanOrEqualTo",
+                  "prompt": "Slot.Validation.1370440719727.59636970313.1446478513606",
+                  "value": "3"
+                },
+                {
+                  "type": "isGreaterThanOrEqualTo",
+                  "prompt": "Slot.Validation.1370440719727.59636970313.375150585559",
+                  "value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Slot.Validation.117941563445.1489347053102.1558866954732",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Lo siento. Los ejercicios están diseñados para gente de entre tres y siete años."
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.117941563445.1489347053102.1485415394833",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Lo siento. Los ejercicios están diseñados para gente de entre tres y siete años."
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.1370440719727.59636970313.1446478513606",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Disculpe, no le he entendido. Por favor responda con el número de la opción que considere correcta"
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.1370440719727.59636970313.375150585559",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Disculpe, no le he entendido. Por favor responda con el número de la opción que considere correcta"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "25"
+}
